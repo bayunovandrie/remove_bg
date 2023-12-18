@@ -14,7 +14,7 @@ def remove_background(input_path, output_path):
             output_file.write(output_data)
 
 # Contoh penggunaan
-input_image_path = "sample/girl.jpg"
+input_image_path = "sample/natascha.jpg"
 p = input_image_path.split("/")
 name_img = p[1].split(".")
 output_image_path = f"output/{name_img[0]}_remove_bg.png"
